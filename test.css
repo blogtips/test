@@ -18,7 +18,7 @@
     
     #fw-feed-items{margin:0;padding:0; overflow:hidden; z-index:-999;}
     
-	#fw-feed-items .fw-feed-item{margin:0;padding:20px 0;    height: auto;
+	#fw-feed-items .fw-feed-item{margin:0;padding:20px 0;    height: auto;width:100%;
     display: inline-block;
     background-color: #fff;
     overflow: hidden;
