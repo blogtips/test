@@ -25,8 +25,8 @@
   }
   return(false);
 }
-var related = getQueryVariable('related'),
-    cse-code = getQueryVariable('cse-code');
+var related = getQueryVariable('related');
+var cse-code = getQueryVariable('cse-code');
 google.load('search', '1', {language: 'en'});
 google.setOnLoadCallback(function() {
 var customSearchControl = new google.search.CustomSearchControl(cse-code);
