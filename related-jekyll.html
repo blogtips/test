@@ -25,13 +25,14 @@
   }
   return(false);
 }
-var searchkey = getQueryVariable('searchkey');;
+var searchkey = getQueryVariable('related');
+var searchkey = getQueryVariable('cse-code');;
 google.load('search', '1', {language: 'en'});
 google.setOnLoadCallback(function() {
-var customSearchControl = new google.search.CustomSearchControl("009601964932240328227:7p-6_d-fye0");
+var customSearchControl = new google.search.CustomSearchControl(cse-code);
 customSearchControl.setResultSetSize(google.search .Search.FILTERED_CSE_RESULTSET);
 customSearchControl.draw('cse-search-form');
-customSearchControl.execute(searchkey);
+customSearchControl.execute(related);
 }, true);
 </script>
 </div>
